@@ -156,11 +156,6 @@ function sheryAnimation() {
   });
 }
 
-locomotiveAnimation();
-loadingAnimation();
-cursorAnimation();
-sheryAnimation()
-
 
 document.addEventListener("mousemove" , function(dets){
   gsap.to("#flag",{
@@ -183,3 +178,9 @@ document.querySelector("#hero3").addEventListener("mouseleave",
     })
   })
 
+
+  
+locomotiveAnimation();
+loadingAnimation();
+cursorAnimation();
+sheryAnimation()
